@@ -1,0 +1,5 @@
+name: AutoMod
+main: automod\Main
+author: Yaku
+version: 1.0.0
+api: [5.0.0]

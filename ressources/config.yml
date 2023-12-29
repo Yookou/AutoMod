@@ -1,0 +1,15 @@
+insult:
+  on: true
+  words: ["shut up", "stfu"]
+  mute-time: 30
+  mute-broadcastmessage: "{player} was muted by automod for {time} for insult"
+  mute-message: "u have been muted for insult for {time}"
+provoc:
+  on: true
+  words: ["ez", "easy"]
+  mute-time: 30
+  mute-broadcastmessage: "{player} was muted by automod for {time} for provoc"
+  mute-message: "u have been muted for provoc for {time}"
+
+always-mute: "You are still muted for {time} for {reason}"
+
