@@ -1,5 +1,5 @@
 name: AutoMod
-main: automod\Main
-author: Yaku
-version: 1.0.0
+main: Yookou\AutoMod\Main
+version: 0.0.2
 api: [5.0.0]
+author: Yookou
