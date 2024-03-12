@@ -5,13 +5,11 @@ namespace Yookou\AutoMod\events;
 use JsonException;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerChatEvent;
-use Yookou\Main;
+use Yookou\AutoMod\Main;
 
 class AutoModerationListener implements Listener {
-	private Main $plugin;
 
-	public function __construct(Main $plugin) {
-		$this->plugin = $plugin;
+	public function __construct(private Main $plugin) {
 	}
 
 	/**

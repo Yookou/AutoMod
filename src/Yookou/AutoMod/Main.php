@@ -1,6 +1,6 @@
 <?php
 
-namespace Yookou;
+namespace Yookou\AutoMod;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\SingletonTrait;

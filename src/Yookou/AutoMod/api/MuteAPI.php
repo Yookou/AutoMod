@@ -2,10 +2,9 @@
 
 namespace Yookou\AutoMod\api;
 
-use function automod\api\mb_strtolower;
 use JsonException;
 use pocketmine\utils\Config;
-use Yookou\Main;
+use Yookou\AutoMod\Main;
 
 class MuteAPI {
 	private Main $plugin;
